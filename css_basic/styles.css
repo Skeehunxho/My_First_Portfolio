@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+main,header {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding: 20px ;
+    color: aquamarine;
+    background-color: blueviolet;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+}
